@@ -1,0 +1,25 @@
+.formAdd {
+    text-align: left;
+    margin-top: 50px;
+}
+.formUpdate {
+    text-align: left;
+    margin-top: 50px;
+}
+
+.formUpdate .form-control:hover {
+    border-color: #0800ff75;
+}
+.formAdd .form-control:hover {
+    border-color: green;
+}
+
+li {
+    list-style: none;
+}
+
+hr {
+    height: 10px;
+    width: 50%;
+    text-align: center;
+}

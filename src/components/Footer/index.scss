@@ -1,0 +1,78 @@
+.divBottom {
+    background-color: #736c6c;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    position: relative;
+    box-shadow: 0 0 4px 0 #000000eb;
+    .divBottomLeft {
+        color: white;
+        position: absolute;
+        top: 0;
+        left: 99px;
+        span {
+            color: green;
+        }
+    }
+
+    .divBottomRight {
+        color: white;
+        position: absolute;
+        top: 0;
+        right: 99px;
+        
+            .fab {
+                font-family: "Font Awesome 5 Brands";
+                font-size: 34px;
+                line-height: 80px;
+                padding: 0px 3px;
+            }
+        
+    }
+}
+
+.f-grid {
+    display: flex;
+    justify-content: space-between;
+    margin-left: -1rem;
+    flex-flow: row wrap;
+    .f-grid-col {
+        flex: 1 0;
+        margin-left: 1rem;
+        margin-bottom: 1rem;
+        padding: 1rem;
+    }
+    .mg-left {
+        margin-left: 100px;
+        text-align: left;
+        .logo {
+            width: 42%;
+            margin-bottom: 17px;
+        }
+        p {
+            font-size: 12px;
+            color: #fdfdfda6;
+        }
+        .readmore {
+            cursor: pointer;
+            font-size: 13px;
+            font-family: fantasy;
+            .fas {
+                color: #35dec8;
+                margin-right: 7px;
+            }
+        }
+        hr {
+            height: 26px;
+            width: 91%;
+            text-align: center;
+        }
+    }
+    .mg-right {
+        margin-right: 100px;
+    }
+}
+
+.footer {
+    background: #171616a3;
+}
